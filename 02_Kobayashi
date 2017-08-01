@@ -6,7 +6,7 @@
 
 # The Kobayashi approach using Python on comparing simulated and measured values using mean squared deviation and its components
 # Kobayashi K, Salam MU, 2000. Comparing Simulated and Measured Values Using Mean Squared Deviation and its Components, Journal 
-    of Agronomy, 92, 345-352. https://dl.sciencesocieties.org/publications/aj/abstracts/92/2/345?access=0&view=pdf  
+#    of Agronomy, 92, 345-352. https://dl.sciencesocieties.org/publications/aj/abstracts/92/2/345?access=0&view=pdf  
 
 import numpy as np
 import netCDF4
