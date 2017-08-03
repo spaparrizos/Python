@@ -7,7 +7,6 @@
 import numpy as np
 import netCDF4
 
-
 path = "/path.nc"                  # Desired path where the netCDF file is located in your local disks
 nc = netCDF4.Dataset(path, "r")
 lon = nc.variables["lon"][:]      # Will obtain the longitude dimension
