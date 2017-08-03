@@ -31,7 +31,7 @@ MSD = SB+SDSD+LCS
 
 # Additional check whether the Kobayashi formula was correctly applied (MSD == RMSE**2)
 
-def calcRMSE(x, y): 							# x and y need to have the same dimensions
+def calcRMSE(x, y): 				# x and y need to have the same dimensions
     return ( ( (x - y)**2 ).mean(axis=0) )**0.5
     
 RMSE = calcRMSE(x,y)
