@@ -6,7 +6,7 @@
 import netCDF4, numpy as np
 from mpl_toolkits.basemap import maskoceans
 
-step = 0.5									                    # current grid resolution
+step = 0.5	# current grid resolution
 lat = np.arange(90 - step/2., -90, -step)
 lon = np.arange(-180 + step/2., 180, step)
 lons, lats = np.meshgrid(lon, lat)
